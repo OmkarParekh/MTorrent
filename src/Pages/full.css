@@ -22,6 +22,11 @@ body {
   box-shadow: none;
   width: 80%;
 }
+.browser-default  {
+  background-color: transparent;
+  border-color: white;
+  width: 35%;
+}
 .active-cyan-3 input[type="text"] {
   margin-top: 2.5%;
   border: 1px solid #4dd0e1;

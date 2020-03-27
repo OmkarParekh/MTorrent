@@ -4,6 +4,7 @@ import "../../Pages/full.css";
 
 export default class navbar extends Component {
   render() {
+    
     return (
       <div>
         <nav class="navbar navbar-dark fixed-top">
@@ -28,6 +29,19 @@ export default class navbar extends Component {
                 <li class="nav-item active">
                   <a class="nav-link" href="/">
                     Home <span class="sr-only">(current)</span>
+                  </a>
+                  
+                </li>
+                <div class="dropdown-divider"></div>
+                <li class="nav-item active ">
+                  <a class="nav-link" href="/Trending">
+                     Trending <span class="sr-only">(current)</span>
+                  </a>
+                </li>
+                <div class="dropdown-divider"></div>
+                <li class="nav-item active ">
+                  <a class="nav-link" href="/Popular">
+                     Popular <span class="sr-only">(current)</span>
                   </a>
                 </li>
               </ul>
