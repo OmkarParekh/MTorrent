@@ -1,0 +1,155 @@
+#size {
+  margin-top: 5%;
+}
+.navbar {
+  background-color: transparent;
+}
+body {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("Konachan.com\ -\ 199470\ bicycle\ clouds\ dress\ haraguroi_you\ night\ original\ scenic\ sky\ stars\ water.jpg");
+  background-position: 10%;
+  background-attachment: fixed;
+}
+/* .container {
+  height: 10%;
+  width: 50%;
+} */
+.card {
+  margin-top: 5%;
+  background-color: transparent;
+  border: 0px;
+  box-shadow: none;
+  width: 80%;
+}
+.active-cyan-3 input[type="text"] {
+  margin-top: 2.5%;
+  border: 1px solid #4dd0e1;
+  box-shadow: 0 0 0 1px #4dd0e1;
+  background-color: transparent;
+  width: 35%;
+  background-attachment: fixed;
+}
+.active-cyan-4 input[type="text"]:focus:not([readonly]) {
+  border: 1px solid #5acbda;
+  box-shadow: 0 0 0 1px #2c8894;
+  background-color: #4dd0e1;
+  width: 35%;
+  background-attachment: fixed;
+}
+.search_title {
+  word-wrap: break-word !important;
+}
+.btn {
+  margin-top: 2.5%;
+}
+#btn-download {
+  width: 100%;
+  margin-top: 3%;
+}
+#size {
+  margin-top: 3%;
+}
+#c1 {
+  background-color: rgba(255, 255, 255, 0.089);
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  #id_center {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .form-control {
+    width: 100% !important;
+    height: 45.38px;
+  }
+  .btn {
+    width: 100%;
+    border-radius: 4px;
+    margin-left: -0.4%;
+  }
+  .my-3 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .search_title {
+    font-size: 1.3rem;
+  }
+  .btn-download {
+    font-size: 1rem;
+  }
+  #size {
+    font-size: 1rem;
+  }
+  .heading {
+    font-size: 1.7rem;
+  }
+}
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #id_center {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+ 
+  .form-control {
+    width: 60% !important;
+    height: 45.38px;
+  }
+  .btn {
+    width: 60%;
+    border-radius: 4px;
+    margin-left: -0.4%;
+  }
+  .search_title {
+    font-size: 1.5rem;
+  }
+}
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #id_center {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .form-control {
+    width: 45% !important;
+    height: 45.38px;
+  }
+  .btn {
+    width: 45%;
+    border-radius: 4px;
+    margin-left: -0.4%;
+  }
+  
+  .heading {
+    font-size: 2.4rem;
+  }
+  .search_title {
+    font-size: 1.5rem;
+  }
+  #size {
+    font-size: 1.3rem;
+  }
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .heading {
+    font-size: 3.7rem;
+  }
+  #size {
+    font-size: 2rem;
+  }
+ 
+  .btn-download {
+    font-size: 2rem !important;
+  }
+}
+
+/*  Extra large devices (large desktops, 1200px and up) 
+@media (min-width: 1200px) {
+}
+*/
