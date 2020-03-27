@@ -85,6 +85,13 @@ body {
   .heading {
     font-size: 1.7rem;
   }
+  .card {
+    margin-top: 5%;
+    background-color: transparent;
+    border: 0px;
+    box-shadow: none;
+    width: 100%;
+  }
 }
 
 /*  Small devices (landscape phones, 576px and up) */
@@ -105,6 +112,13 @@ body {
   }
   .search_title {
     font-size: 1.5rem;
+  }
+  .card {
+    margin-top: 5%;
+    background-color: transparent;
+    border: 0px;
+    box-shadow: none;
+    width: 100%;
   }
 }
 
@@ -133,6 +147,13 @@ body {
   #size {
     font-size: 1.3rem;
   }
+  .card {
+    margin-top: 5%;
+    background-color: transparent;
+    border: 0px;
+    box-shadow: none;
+    width: 100%;
+  }
 }
 
 /*  Large devices (desktops, 992px and up) */
@@ -146,6 +167,13 @@ body {
  
   .btn-download {
     font-size: 2rem !important;
+  }
+  .card {
+    margin-top: 5%;
+    background-color: transparent;
+    border: 0px;
+    box-shadow: none;
+    width: 100%;
   }
 }
 
