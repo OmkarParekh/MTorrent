@@ -21,8 +21,8 @@ export default class Home extends Component {
   render() {
     return (
       <div>
-        <br />
-        <br />
+        
+        
         <center id="id_center">
           <div class="card  text-white">
             <img src={mt} class="card-img img-fluid" alt="..." />
