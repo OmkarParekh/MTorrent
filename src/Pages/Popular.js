@@ -91,8 +91,7 @@ export default class Popular extends Component {
         const { data } = this.state;
         return (
             <div>
-            <br/>
-            <br />
+          
             <br /><center>
             <select class=" browser-default custom-select-lg text-white" onChange={this.handleChange}>
             <option selected class="text-dark" disabled>Catagory</option>

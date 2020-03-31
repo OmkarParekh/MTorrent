@@ -31,8 +31,7 @@ export default class Trending extends Component {
         const { data } = this.state;
         return (
             <div>
-        <br/>
-        <br />
+        
         <br />
         <center>
           <h1 class="text-white heading"> Trending For Today</h1>
