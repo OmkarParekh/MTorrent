@@ -40,7 +40,7 @@ export default class Popular extends Component {
     render() {
         
        
-        const { data } = this.state;
+       
         return (
             <div>
           
