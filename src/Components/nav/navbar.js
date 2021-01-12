@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import mt from "./textfx.png";
-import { Link } from "react-router-dom";
-import "../../Pages/full.css";
+import {Link} from 'react-router-dom'
+import "../../App.css";
 
 export default class navbar extends Component {
   render() {
@@ -31,6 +31,11 @@ export default class navbar extends Component {
               <li className="nav-item">
               <Link className="nav-link" to="/">
                 Home
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/Top">
+                Top
               </Link>
             </li>
             <li className="nav-item">
