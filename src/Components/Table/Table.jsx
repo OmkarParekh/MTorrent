@@ -10,9 +10,9 @@ export default class Table extends Component {
           }
      }
      magnet(link){
-          Axios.get(`https://mtorrent-z.herokuapp.com/Magnet/link?link=${link}`)     
+          Axios.get(`${window.url}/Magnet/link?link=${link}`)     
           .then(( data )=>{
-             console.log(data.data.Magnetlink)
+          //    console.log(data.data.Magnetlink)
                window.open(data.data.Magnetlink)
           }) 
         
@@ -21,7 +21,7 @@ export default class Table extends Component {
      render() {       
           return (
                <div className="table-responsive">
-               <table class="table table-bordered text-white   ">
+               <table className="table table-bordered text-white   ">
                <thead>
                  <tr>
                    <th scope="col">#</th>

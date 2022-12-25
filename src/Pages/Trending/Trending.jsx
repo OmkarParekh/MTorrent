@@ -17,7 +17,7 @@ export default class Trending extends Component {
       }
       async componentDidMount() {
        
-          const data = await Axios.get(`https://mtorrent-z.herokuapp.com/Trending/all/day`);
+          const data = await Axios.get(`${window.url}/Trending/all/day`);
           this.setState({
             data: data.data,
             Loading:true

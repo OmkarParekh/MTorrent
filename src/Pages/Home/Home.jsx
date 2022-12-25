@@ -36,16 +36,16 @@ export default class Home extends Component {
     }
     return (
       <div className='home'>
-          <div class="Title-con">
+          <div className="Title-con">
             <center>
-            <img src={mt} class="img-fluid" alt="..." />
+            <img src={mt} className="img-fluid" alt="..." />
            </center>
           </div>
         
-          <form class="myform" onSubmit={this.handlesubmit}>
+          <form className="myform" onSubmit={this.handlesubmit}>
            
-            <input class="form-control home-search mr-0" type="text" placeholder="Search" aria-label="Search" value={this.state.keyword} onChange={this.handleChange}/>
-            <button type="submit" class="btn ml-1" onClick={this.handlesubmit}><i class="fas fa-chevron-right"></i></button>
+            <input className="form-control home-search mr-0" type="text" placeholder="Search" aria-label="Search" value={this.state.keyword} onChange={this.handleChange}/>
+            <button type="submit" className="btn ml-1" onClick={this.handlesubmit}><i className="fas fa-chevron-right"></i></button>
        
           </form>
       </div>

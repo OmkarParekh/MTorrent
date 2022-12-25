@@ -16,7 +16,7 @@ export default class Top extends Component {
       }
       async componentDidMount() {
        
-          const data = await Axios.get(`https://mtorrent-z.herokuapp.com/Top/all`);
+          const data = await Axios.get(`${window.url}/Top/all`);
           this.setState({
             data: data.data,
             Loading:true
